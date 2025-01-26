@@ -1,0 +1,47 @@
+.sidebar{
+   
+  width: 135px;
+  height: 100vh; 
+  background-color: #ffffff; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0;
+  z-index: 12;
+  overflow: visible;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 90px;
+  height: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    margin-bottom: 10px ;
+    align-items: center;
+}
+
+.icons span i{
+    font-size: 30px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.icons span i:hover {
+  color: #007bff; 
+  transform: scale(1.5); 
+  opacity: 1;
+  }
+
+
+

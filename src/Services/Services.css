@@ -1,0 +1,56 @@
+.interior-services-page {
+    padding: 40px 80px;
+  }
+
+  .service-card:hover{
+    background-color: #e4e4e4;
+  }
+  
+  .page-heading {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-stretch:extra-condensed;
+  }
+  
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+  }
+  
+  .service-card {
+       text-align: left;
+    overflow: hidden;
+  }
+
+  
+  .service-image {
+    width: 90px;
+    height: 70px;
+    
+    padding-left: 7px;
+    
+  }
+  
+ 
+  .service-title {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 8px 13px 13px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    
+  }
+  
+  .service-description {
+    font-size: 15px;
+    opacity: 0.8;
+    color: #666;
+    padding: 0 15px 20px;
+    line-height: 1.7;
+  }
